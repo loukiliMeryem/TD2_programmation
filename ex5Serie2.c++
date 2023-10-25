@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-    int a = 42; // Déclare un entier 'a' et l'initialise à 42
-    int &ref_a = a; // Déclare une référence 'ref_a' à 'a'
-    int *p_a = &a; // Déclare un pointeur 'p_a' pointant vers 'a'
+    int a = 42; 
+    int &ref_a = a;
+    int *p_a = &a; 
 
     cout << "a : " << a << endl;
     cout << "Adresse de a : " << &a << endl;
